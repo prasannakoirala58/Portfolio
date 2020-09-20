@@ -1,0 +1,387 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merienda+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fondamento&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+/* For nav bar sliding */
+
+#scroll-head {
+  background-color: #19275c;
+  position: fixed;
+  top: -400px;
+  transition: top 0.3s;
+}
+
+#my-logo {
+  width: 200px;
+  height: 77px;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+#scroll-head ul#lists {
+  background: #19275c;
+  position: absolute;
+  top: 31px;
+  right: -1000px;
+  margin-top: 25px;
+  float: right;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+}
+
+#container-1:before {
+  display: table;
+  content: "";
+  clear: both;
+}
+
+/* Container-1 CSS */
+
+#container-1 {
+  background: url("../img/starry.jpg");
+}
+
+/* #my-logo {
+  height: 77px;
+  width: 200px;
+  padding: 20px;
+  margin: 20px;
+  clear: both;
+}
+
+#lists {
+  list-style-type: none;
+  width: 40%;
+  float: right;
+  padding: 10px;
+  margin: -110px;
+  color: white;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+} */
+
+#lists a:link,
+#lists a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+#lists a:hover {
+  color: blueviolet;
+}
+
+#lists a:active {
+  position: relative;
+  top: 2px;
+  color: forestgreen;
+}
+
+#lists li {
+  display: inline;
+  padding: 20px;
+  margin: 10px;
+}
+
+#name {
+  text-align: center;
+  padding: 10px;
+  margin-top: 150px;
+}
+
+#prasanna {
+  display: block;
+  height: 100px;
+  width: 350px;
+  margin: 0 auto;
+  border: 1px solid #19275c;
+}
+
+#designer {
+  display: block;
+  height: 80px;
+  width: 250px;
+  margin: 10px;
+  padding: 5px;
+  margin: 0 auto;
+}
+
+#moonlight-image {
+  width: 810px;
+  margin: 0 auto;
+}
+
+/* Container-2 CSS */
+
+div #myProfile {
+  display: block;
+  height: 150px;
+  width: 150px;
+  border-radius: 100%;
+  margin: 20px auto;
+}
+
+#container-2 {
+  padding: 10px;
+  width: 30%;
+  margin: 10px auto;
+  text-align: center;
+}
+
+#container-2 h2,
+#container-3 h2,
+#container-5 h2 {
+  font-family: "Fondamento", cursive;
+  font-size: 30px;
+  text-align: center;
+  font-weight: lighter;
+  color: #066aecce;
+  padding: 5px;
+  margin-bottom: 5px;
+}
+
+#container-2 p,
+#container-3 p,
+#container-4 p,
+#container-5 p {
+  font-family: "Merienda One", cursive;
+  font-size: 1.25em;
+  font-weight: lighter;
+  color: rgba(67, 143, 167, 0.863);
+}
+
+.dots {
+  margin-top: 20px;
+  color: #60b1b4ea;
+  text-align: right;
+}
+
+.dotss {
+  margin: 10px;
+  text-align: center;
+}
+
+/* Container-3 CSS */
+
+#container-3 {
+  position: relative;
+  width: 60%;
+  margin: 10px auto;
+  padding: 30px;
+}
+
+#container-3 h1 {
+  font-family: "Nanum Gothic", sans-serif;
+  text-align: center;
+  font-size: 40px;
+  color: #066aecce;
+  letter-spacing: 2px;
+  font-weight: lighter;
+}
+
+#container-3 h2 {
+  text-align: center;
+  margin-top: 80px;
+  margin-left: 250px;
+}
+
+#container-3 #icon {
+  margin: 30px;
+  height: 100px;
+  width: 100px;
+}
+
+#container-3 p {
+  padding: 10px;
+  text-align: left;
+  width: 60%;
+  margin-left: 350px;
+  margin-top: 30px;
+}
+
+#container-3 #myProfile2 {
+  margin-top: 40px;
+  height: 150px;
+  width: 150px;
+  border-radius: 100%;
+}
+
+#container-3 #images {
+  position: absolute;
+  top: 100px;
+  left: 0;
+}
+
+/* container-4 CSS */
+
+#container-4 {
+  margin-top: 80px;
+}
+
+#container-4 #icon-2 {
+  height: 100px;
+  width: 100px;
+}
+
+#container-4 #myProfile3 {
+  height: 150px;
+  width: 150px;
+  border-radius: 100%;
+  margin-left: 20px;
+}
+
+#container-4 #images-2 {
+  float: right;
+  margin-right: 250px;
+  padding: 15px;
+}
+
+#container-4 h2 {
+  font-family: "Fondamento", cursive;
+  font-size: 30px;
+  font-weight: lighter;
+  color: #066aecce;
+  text-align: left;
+  margin-left: 200px;
+  margin-bottom: 30px;
+}
+
+#container-4 #icon-2 {
+  padding: 10px;
+  margin-bottom: 5px;
+}
+
+#container-4 p {
+  padding: 10px;
+  width: 35%;
+  margin-left: 200px;
+}
+
+/* Container-5 CSS */
+
+#container-5 {
+  margin-top: 50px;
+}
+
+#container-5 h1 {
+  font-family: "Nanum Gothic", sans-serif;
+  text-align: center;
+  font-size: 40px;
+  color: #066aecce;
+  letter-spacing: 2px;
+  font-weight: lighter;
+}
+
+#container-5 p {
+  padding: 10px;
+  text-align: center;
+  width: 50%;
+  margin: 10px auto;
+}
+
+/* Message Button CSS */
+
+#message-box {
+  position: relative;
+}
+
+#message-box a:link,
+#message-box a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+#button {
+  color: white;
+  position: relative;
+  top: 2px;
+  border-radius: 5px;
+  border: none;
+  background-color: #432fb49c;
+  display: block;
+  height: 50px;
+  width: 200px;
+  margin: 10px auto;
+  outline: none;
+}
+
+#button b {
+  position: relative;
+  left: 8px;
+}
+
+#button:hover {
+  background: rgba(41, 30, 189, 0.671);
+  box-shadow: 0px 2px 4px -1px rgba(1, 46, 54, 0.37);
+  cursor: pointer;
+  transition: background 0.6s;
+}
+
+.svg-icon:hover {
+  cursor: pointer;
+}
+
+.svg-icon {
+  position: absolute;
+  top: 2px;
+  left: 550px;
+  display: block;
+  margin: 10px auto;
+  height: 30px;
+  width: 30px;
+}
+
+/* Footer CSS */
+
+footer {
+  margin-top: 30px;
+  background: rgb(40, 99, 177);
+  height: 150px;
+  width: auto;
+}
+
+footer ul li {
+  margin: 35px;
+  font-size: 20px;
+  font-family: "Raleway", sans-serif;
+  color: white;
+  display: inline;
+  list-style-type: none;
+}
+
+footer ul {
+  padding: 35px;
+  display: block;
+  text-align: center;
+  margin-right: 300px;
+}
+
+footer a:link,
+footer a:visited {
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #d32a2a69;
+}
+
+footer #trademark {
+  font-family: "Merienda One", cursive;
+  font-size: small;
+  color: aliceblue;
+  text-align: center;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+footer b {
+  font-weight: normal;
+  text-decoration: underline;
+}
